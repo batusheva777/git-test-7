@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<голова>
+    <мета-кодировка="UTF-8">
+    <meta name="viewport" content="width=device-width, Initial-scale=1.0">
+    <title>Документ</title>
+    <скрипт>
+        const firstname = "Зоя";
+        const фамилия = "Анатольевна"
+        const Lastname = "Ивлева";
+       константный день рождения = 5;
+        константный месяц рождения = 1;
+        константный год рождения = 1987;
+        константный текущий год = 2024;
+        console.log(имя);
+        console.log(фамилия);
+        console.log(фамилия);
+        console.log(деньрождения);
+        console.log(месяцРождения);
+        console.log(год рождения);
+        console.log(текущийгод);
+       
+        /*console.log(текущийГод);
+        пусть последний год = 2023;*/
+        /*let RANDOM_STRING = "365JHJHJKHJH"
+        RANDOM_STRING = (10 -'5a') * 5;*/
+        /*RANDOM_STRING = "Мне ${age}" 2024 - 1987;
+        console.log(RANDOM_STRING)*/
+        // console.log(RANDOM_STRING);
+        let RANDOM_STRING_2 = `Мой возраст: ${2024-1987} лет`
+         console.log(RANDOM_STRING_2)
+        // пусть возраст = 2024-1987;
+        // let RANDOM_STRING_2 = "Мой возраст: ${age} лет";
+        /*console.log(RANDOM_STRING_2)
+        пусть canIEnter = возраст >= 18
+        console.log{"Я могу пойти в клуб? ${canIEnter}"}*/
+        /*let age = 1;
+        пусть сумма = 1 + 1;
+        console.log(сумма)*/
+    
+           let Ilike = "путешествовать"
+           console.log(мне нравится)
+           let fullName = 'Зоя' + '' + 'Ивлева';
+           console.log(полное имя)
+           /*let sum2 = '2' + '2';
+           console.log(sum2)*/
+    </скрипт>
+
+</голова>
+
+<тело>
+    
+    <h1>
+        Рассказ о себе:</h1>
+        <h2><span id="aboutME"></span></h2>
+    
+</тело>
+
+</html>
