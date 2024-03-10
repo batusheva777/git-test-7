@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Моя тестовая страница</title>
+<style>
+
+.wrapper {
+  background-color: red;
+  color: white;
+}
+.text2 {
+  background-color: green;
+}
+.inline {
+  display: inline-block;
+  color: white;
+}
+
+.invisible {
+  display: none;
+}
+
+
+.flex-container {
+  display: flex;
+  font-size: 10px;
+  flex-direction:row-reverse; wrap; /* отвечает за сворачивание (создание новой строки, если закончилось место)*/
+  flex-wrap: wrap;
+  width: 250px;
+  border: 6px solid blue;
+}
+
+.item {
+  border: 1px solid red;
+  padding: 5px;
+}
+
+
+
+.item {
+  width: 10px;
+  height: 50px;
+  border: 10px solid red;
+}
+
+.relative {
+  position: absolute;
+  top: 50px;
+ text-align: 70px;
+  
+}
+.item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+
+.relative {
+  position: relative;
+  top: -10px;
+  left: 15px;
+}
+
+
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
+
+ground-color: green;
+}
+
+</style>
+
+</head>
+
+
+<body>
+    <div>
+  <div class="item"> Скидки на корм </div>
+  <div class="item relative"> Все товары </div>
+  <div class="item"> В корзину </div>
+</div>
+    <div>
+  <div class="item"> Войти </div>
+  <div class="item relative"> Помощь 24/7 </div>
+  <div class="item"> Акции </div>
+</div>
+
+<div class="flex-container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+  <div class="item">7</div>
+  <div class="item">8</div>
+  <div class="item">9</div>
+</div>
+    <div>
+  
+  <div class="invisible">
+    
+  </div>
+</div>
+    <div>
+  <div class="inline red">
+Заказы
+  </div>
+  <div class="inline blue">
+    Котята и щенки
+  </div>
+</div>
+    
+   <div class="wrapper">
+  <div>    <p style="color: darkorange; font-weight: ; font-size: 80px; font-family: arial; text-align: center; line-height: 100px"> </p>
+Интернет магазин</div>
+  <div class="text2"><p style="color: darkorange; font-weight: ; font-size: 80px; font-family: arial; text-align: center; line-height: 100px">Кавалер кинг чарльз спаниель <img src="https://img.myslo.ru/NewsImage/86/7a/867a8205-46c9-4f2d-9fc9-8de23ca2a430_3.jpg" alt="Мое изображение">  </p>  
+</div>
+</div>
+   
+    
+    
+    
+   
+    
+    
+
+    
+  
+    <p style="color: red; font-weight: small; font-size: 85px; text-align: center;">Любимая порода собаки</p> 
+    <h1></h1>
+   
+    <h2><p style="color: darkred; font-weight: ; font-size: 80px;">Корма</h2> <p><img src="https://zoomagyar.ru/assets/cache_image/assets/templates/zoomagyar/files/product/15062436_250x250_90d.jpg" alt="Корм ROYAL CANIN"> </p> <p><img src="https://d2c-cdn.royalcanin.com/cdn-cgi/image/width=500,h=500,format=webp/https://d2cfgseuprod.z6.web.core.windows.net/ruv1/ru-277723-master.jpg"> </p>
+    <p style="color: orange; font-weight: bold;font-size: 80px; line-height: 100px;">Выставочная собака</p>
+    <h3><p style="color: violet; font-weight: bold;font-size: 45px;">Натуральная еда </h3> 
+    <h4><p style="color: green; font-weight: bold;font-size: 30px;">Витамины, препараты </h4> 
+    <h5><p style="color: pink; font-weight: bold;font-size: 45px;">Лакомства </h5>
+    <h6><p style="color: grey; font-weight: bold;font-size: 30px;">Игрушки </h6>
+    <p><p style="color: lightgreen; font-weight: bold;font-size: 45px;">Уход за животным</p>
+  <h7><p style="color: lightblue; font-weight: bold;font-size: 40px; text-align: center;">тел. 8 9024 52 44 45</p></h7>
+
+<p><p style="color: violet; font-weight: bold;font-size: 45px; text-align: center;">Любовь к собакам <img src="https://kartinki.pics/uploads/posts/2022-12/1671786303_kartinkin-net-p-ogromnoe-serdtse-kartinka-vkontakte-1.png" alt="Сердечко"> </p> 
+
+<p> <img src="http://www.belanta.vet/vet-blog/wp-content/uploads/2019/05/1-17.jpg" alt="чихуахуа фото"> </p>
+
+</html>
