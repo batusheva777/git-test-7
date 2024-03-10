@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Моя тестовая страница</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+
+
+
+</head>
+
+
+<body>
+    <p style="color: darkorange; font-weight: ; font-size: 80px; font-family: arial; text-align: center; line-height: 100px"> Интернет магазин
+    
+    
+    
+   
+    
+    
+ <p style="color: orange; font-weight: small; font-size: 20px; text-align: center;">Кавалер кинг чарльз спаниель</p>               <img src="https://img.myslo.ru/NewsImage/86/7a/867a8205-46c9-4f2d-9fc9-8de23ca2a430_3.jpg" alt="Мое изображение"> 
+   
+    
+  
+    <p style="color: red; font-weight: small; font-size: 85px; text-align: center;">Любимая порода собаки</p> 
+    <h1></h1>
+   
+    <h2><p style="color: darkred; font-weight: ; font-size: 80px;">Корма</h2> <p><img src="https://zoomagyar.ru/assets/cache_image/assets/templates/zoomagyar/files/product/15062436_250x250_90d.jpg" alt="Корм ROYAL CANIN"> </p> <p><img src="https://d2c-cdn.royalcanin.com/cdn-cgi/image/width=500,h=500,format=webp/https://d2cfgseuprod.z6.web.core.windows.net/ruv1/ru-277723-master.jpg"> </p>
+    <p style="color: orange; font-weight: bold;font-size: 80px; line-height: 100px;">Выставочная собака</p>
+    <h3><p style="color: violet; font-weight: bold;font-size: 45px;">Натуральная еда </h3>
+    <h4><p style="color: green; font-weight: bold;font-size: 30px;">Витамины, препараты </h4> 
+    <h5><p style="color: pink; font-weight: bold;font-size: 45px;">Лакомства </h5>
+    <h6><p style="color: grey; font-weight: bold;font-size: 30px;">Игрушки </h6>
+    <p><p style="color: lightgreen; font-weight: bold;font-size: 45px;">Уход за животным</p>
+  <h7><p style="color: lightblue; font-weight: bold;font-size: 40px; text-align: center;">тел. 8 9024 52 44 45</p></h7>
+
+<p><p style="color: violet; font-weight: bold;font-size: 45px; text-align: center;">Любовь к собакам <img src="https://kartinki.pics/uploads/posts/2022-12/1671786303_kartinkin-net-p-ogromnoe-serdtse-kartinka-vkontakte-1.png" alt="Сердечко"> </p> 
+
+<p> <img src="http://www.belanta.vet/vet-blog/wp-content/uploads/2019/05/1-17.jpg" alt="чихуахуа фото"> </p>
+
+</html>
