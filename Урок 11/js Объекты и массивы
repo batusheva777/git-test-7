@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    let saladTunaWithCreamcheese = {
+        Name: 'Салат с тунцом и кремом чиз',
+        weight: 130,
+        ingredients: ['тунец консервированный', 'творожный сыр', 'листья салата', 'микрозелень редиса', 'смесь семян', 'лимонный сок'
+        'оливковое масло', 'помидор черри', 'перец балгарский желтый'],
+        cookingTime: 25,
+        price: 630,
+        profit: 315
+        let pumpkinSoup = {
+        name: 'тыквенный суп',
+        weight: 330,
+        ingredients: ['пюре тыквенное', 'картофель,', 'лук', 'специи', 'сливки', 'сухарики'],
+        cookingTime: 25,
+        price: 570,
+        netCost: 300
+    }
+    
+        let menu = [saladTunaWithCreamcheese, pumpkinSoup]; /*Создадим массив из наших блюд*/
+       
+    menu.shift();  /*Удалим объект массива*/
+    
+    menu.unshift(saladTunaWithCreamcheese) /*возвращаем объект обратно*/
+    
+    delete pumpkinSoup.ingredients[0];/*удалим тыкву из тыквенного супа*/
+     
+    console.log(saladTunaWithCreamcheese.price+pumpkinSoup.price); /*Найдем заработок от продажи блюд*/
+   
+    console.log(saladTunaWithCreamcheese.cookingTime+pumpkinSoup.cookingTime);  /*найдем общее время приготовления*/
+    
+    menu = [menu.pop()]; /*удалим из массива все элементы, кроме одного*/
+    
+    console.log(saladTunaWithCreamcheese.price-saladTunaWithCreamcheese.netCost); /*Найдемприбыль от продажи салата с тунцом и кремом чиз*/
+    
+    console.log(pumpkinSoup.price-pumpkinSoup.netCost); /*прибыль от продажи тыквенного супа*/
+    
+
+    </script>
+
+</head>
+
+<body>
+    
+
+</body>
+</html>
